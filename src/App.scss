@@ -1,0 +1,43 @@
+input,textarea {
+  display: block;
+}
+
+ul {
+  // display: flex;
+  // flex-direction: column;
+  
+
+  li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+}
+
+body{
+  width: 85%;
+  margin: auto;
+}
+
+.columns{
+  display: flex;
+}
+
+.column{
+  margin: 10px;
+}
+
+.field{
+  padding-bottom: 10px;
+}
+
+.control{
+  padding-top: 10px;
+}
+
+.delete{
+  margin-left: 10px;
+}
+
+.is-invisible{
+  display:none;
+}
